@@ -1,2 +1,4 @@
+def port = "8080"
+def src = "./src/index.js"
 @Library('mylibrary') _
-test("8081", "index.js")
+test(port, src)
