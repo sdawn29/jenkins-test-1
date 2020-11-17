@@ -1,10 +1,2 @@
-pipeline {
-    agent any
-    stages {
-        stage('build') {
-            steps {
-                sh 'npm --version'
-            }
-        }
-    }
-}
+@Library('mylibrary') _
+test(8082)
