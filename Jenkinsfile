@@ -1,2 +1,2 @@
 @Library('mylibrary') _
-test(8082)
+test("8082", "index.js")
