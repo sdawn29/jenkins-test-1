@@ -1,2 +1,4 @@
-@Library('shared-library') _
-pipeline()
+// Jenkinsfile
+@Library('my-shared-library') _
+
+evenOrOdd(currentBuild.getNumber())
