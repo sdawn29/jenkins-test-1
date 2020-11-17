@@ -1,10 +1,2 @@
-pipeline {
-    agent any
-    stages {
-        stage('build') {
-            steps {
-                sh 'npm --version'
-            }
-        }
-    }
-}
+@Library('shared-library')
+pipeline()
