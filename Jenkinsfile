@@ -3,7 +3,7 @@ properties([
     choice(name: 'Enviornment', choices: ['dev', 'qa', 'qa2'], description: '')
   ])
 ])
-def port = "8081"
-def src = "./src/index.js"
+def name = "John"
+def lname = "Dawn"
 @Library('mylibrary') _
-test(port, src, params.Enviornment)
+test(name, lname, params.Enviornment)
